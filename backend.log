@@ -1,0 +1,177 @@
+nohup: ignorando entrada
+MONGO_URI: mongodb+srv://App_mdb:nJkn86qjYvUjlwpJ@ps-terapia.8dgyy1d.mongodb.net/seenti_db?retryWrites=true&w=majority
+🔐 RENDER - OpenSSL version usada: OpenSSL 3.0.2 15 Mar 2022
+🚀 INICIANDO INTEGRAÇÃO JWT - SEENTI APP
+==================================================
+1️⃣ Configurando JWT...
+   ✅ Configuração JWT aplicada
+2️⃣ Inicializando Flask-JWT-Extended...
+   ✅ JWTManager inicializado
+3️⃣ Inicializando middleware JWT...
+   ✅ Middleware JWT inicializado
+4️⃣ Registrando rotas JWT...
+✅ Rotas JWT registradas com sucesso
+   ✅ Rotas JWT registradas
+==================================================
+🎉 SISTEMA JWT INTEGRADO COM SUCESSO!
+==================================================
+✅ Sistema JWT integrado com sucesso!
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.0.167:5001
+Press CTRL+C to quit
+ * Restarting with stat
+MONGO_URI: mongodb+srv://App_mdb:nJkn86qjYvUjlwpJ@ps-terapia.8dgyy1d.mongodb.net/seenti_db?retryWrites=true&w=majority
+ * Debugger is active!
+ * Debugger PIN: 454-904-618
+127.0.0.1 - - [25/Aug/2025 09:42:51] "POST /jwt/test HTTP/1.1" 405 -
+127.0.0.1 - - [25/Aug/2025 09:43:01] "GET /jwt/test HTTP/1.1" 401 -
+127.0.0.1 - - [25/Aug/2025 09:43:06] "POST /jwt/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 09:43:18] "GET /jwt/test HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:23] "OPTIONS /login/google HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:23] "POST /login/google HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:23] "GET /termo-assinado/68ac3accddc22b9b8c434754 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:23] "GET /clientes/usuario/68ac3accddc22b9b8c434754 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:24] "GET /clientes/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:24] "GET /clientes/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:24] "GET /agendamentos/cliente/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:24] "GET /anamneses/cliente/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 404 -
+127.0.0.1 - - [25/Aug/2025 10:13:27] "GET /agendamentos/cliente/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:27] "GET /agendamentos/cliente/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:29] "GET /clientes/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:29] "GET /clientes/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:29] "GET /anamneses/cliente/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 404 -
+127.0.0.1 - - [25/Aug/2025 10:13:29] "GET /anamneses/cliente/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 404 -
+127.0.0.1 - - [25/Aug/2025 10:13:30] "GET /sessoes/cliente/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 404 -
+127.0.0.1 - - [25/Aug/2025 10:13:30] "GET /sessoes/cliente/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 404 -
+127.0.0.1 - - [25/Aug/2025 10:13:31] "GET /notificacoes/cliente/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:31] "GET /notificacoes/cliente/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:13:32] "GET /configuracoes/cliente/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 404 -
+127.0.0.1 - - [25/Aug/2025 10:13:32] "GET /configuracoes/cliente/68ac3ae1ddc22b9b8c434756 HTTP/1.1" 404 -
+ * Detected change in '/home/marcia/seenti_app/SeentiCliente/testes_jwt_completos.py', reloading
+🔐 RENDER - OpenSSL version usada: OpenSSL 3.0.2 15 Mar 2022
+🚀 INICIANDO INTEGRAÇÃO JWT - SEENTI APP
+==================================================
+1️⃣ Configurando JWT...
+   ✅ Configuração JWT aplicada
+2️⃣ Inicializando Flask-JWT-Extended...
+   ✅ JWTManager inicializado
+3️⃣ Inicializando middleware JWT...
+   ✅ Middleware JWT inicializado
+4️⃣ Registrando rotas JWT...
+✅ Rotas JWT registradas com sucesso
+   ✅ Rotas JWT registradas
+==================================================
+🎉 SISTEMA JWT INTEGRADO COM SUCESSO!
+==================================================
+✅ Sistema JWT integrado com sucesso!
+🔐 LOGIN JWT SUCESSO: teste@teste.com - 2025-08-25 09:43:06.685552
+🧪 TESTE JWT: test_user_001 - 2025-08-25 09:43:18.464003
+✅ 0 agendamentos encontrados para cliente 68ac3ae1ddc22b9b8c434756
+✅ 0 agendamentos encontrados para cliente 68ac3ae1ddc22b9b8c434756
+✅ 0 agendamentos encontrados para cliente 68ac3ae1ddc22b9b8c434756
+ * Restarting with stat
+MONGO_URI: mongodb+srv://App_mdb:nJkn86qjYvUjlwpJ@ps-terapia.8dgyy1d.mongodb.net/seenti_db?retryWrites=true&w=majority
+ * Debugger is active!
+ * Debugger PIN: 454-904-618
+127.0.0.1 - - [25/Aug/2025 10:15:33] "GET /jwt/status HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:15:34] "GET /jwt/status HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:15:34] "POST /jwt/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:15:35] "POST /jwt/login HTTP/1.1" 401 -
+127.0.0.1 - - [25/Aug/2025 10:15:35] "GET /jwt/test HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:15:36] "GET /jwt/test HTTP/1.1" 401 -
+127.0.0.1 - - [25/Aug/2025 10:15:36] "POST /jwt/refresh HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:15:37] "POST /jwt/logout HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:15:37] "GET /jwt/test HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:15:38] "POST /jwt/login HTTP/1.1" 401 -
+127.0.0.1 - - [25/Aug/2025 10:15:38] "POST /jwt/login HTTP/1.1" 401 -
+127.0.0.1 - - [25/Aug/2025 10:15:38] "POST /jwt/login HTTP/1.1" 401 -
+127.0.0.1 - - [25/Aug/2025 10:15:38] "POST /jwt/login HTTP/1.1" 401 -
+127.0.0.1 - - [25/Aug/2025 10:15:38] "POST /jwt/login HTTP/1.1" 401 -
+127.0.0.1 - - [25/Aug/2025 10:15:38] "POST /jwt/login HTTP/1.1" 401 -
+127.0.0.1 - - [25/Aug/2025 10:15:39] "OPTIONS /login/google HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:15:40] "POST /login/google HTTP/1.1" 201 -
+127.0.0.1 - - [25/Aug/2025 10:15:45] "OPTIONS /login/google HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:15:45] "POST /login/google HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:15:45] "GET /termo-assinado/68ac61fc6ab4e56de82b1f22 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:15:45] "GET /termos_texto HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:15:46] "GET /termos_texto HTTP/1.1" 200 -
+ * Detected change in '/home/marcia/seenti_app/jwt_integration/routes/jwt_routes.py', reloading
+🔐 RENDER - OpenSSL version usada: OpenSSL 3.0.2 15 Mar 2022
+🚀 INICIANDO INTEGRAÇÃO JWT - SEENTI APP
+==================================================
+1️⃣ Configurando JWT...
+   ✅ Configuração JWT aplicada
+2️⃣ Inicializando Flask-JWT-Extended...
+   ✅ JWTManager inicializado
+3️⃣ Inicializando middleware JWT...
+   ✅ Middleware JWT inicializado
+4️⃣ Registrando rotas JWT...
+✅ Rotas JWT registradas com sucesso
+   ✅ Rotas JWT registradas
+==================================================
+🎉 SISTEMA JWT INTEGRADO COM SUCESSO!
+==================================================
+✅ Sistema JWT integrado com sucesso!
+🔐 LOGIN JWT SUCESSO: teste@teste.com - 2025-08-25 10:15:34.796410
+🧪 TESTE JWT: test_user_001 - 2025-08-25 10:15:35.867163
+🔄 REFRESH JWT: teste@teste.com - 2025-08-25 10:15:36.906233
+🚪 LOGOUT JWT: test_user_001 - 2025-08-25 10:15:37.413582
+🧪 TESTE JWT: test_user_001 - 2025-08-25 10:15:37.919903
+ * Restarting with stat
+MONGO_URI: mongodb+srv://App_mdb:nJkn86qjYvUjlwpJ@ps-terapia.8dgyy1d.mongodb.net/seenti_db?retryWrites=true&w=majority
+ * Debugger is active!
+ * Debugger PIN: 454-904-618
+ * Detected change in '/home/marcia/seenti_app/jwt_integration/routes/jwt_routes.py', reloading
+🔐 RENDER - OpenSSL version usada: OpenSSL 3.0.2 15 Mar 2022
+🚀 INICIANDO INTEGRAÇÃO JWT - SEENTI APP
+==================================================
+1️⃣ Configurando JWT...
+   ✅ Configuração JWT aplicada
+2️⃣ Inicializando Flask-JWT-Extended...
+   ✅ JWTManager inicializado
+3️⃣ Inicializando middleware JWT...
+   ✅ Middleware JWT inicializado
+4️⃣ Registrando rotas JWT...
+✅ Rotas JWT registradas com sucesso
+   ✅ Rotas JWT registradas
+==================================================
+🎉 SISTEMA JWT INTEGRADO COM SUCESSO!
+==================================================
+✅ Sistema JWT integrado com sucesso!
+ * Restarting with stat
+MONGO_URI: mongodb+srv://App_mdb:nJkn86qjYvUjlwpJ@ps-terapia.8dgyy1d.mongodb.net/seenti_db?retryWrites=true&w=majority
+ * Debugger is active!
+ * Debugger PIN: 454-904-618
+127.0.0.1 - - [25/Aug/2025 10:16:40] "OPTIONS /termos_uso HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2025 10:16:41] "POST /termos_uso HTTP/1.1" 201 -
+127.0.0.1 - - [25/Aug/2025 10:16:41] "GET /clientes/usuario/68ac61fc6ab4e56de82b1f22 HTTP/1.1" 404 -
+ * Detected change in '/home/marcia/seenti_app/jwt_integration/routes/jwt_routes.py', reloading
+🔐 RENDER - OpenSSL version usada: OpenSSL 3.0.2 15 Mar 2022
+🚀 INICIANDO INTEGRAÇÃO JWT - SEENTI APP
+==================================================
+1️⃣ Configurando JWT...
+   ✅ Configuração JWT aplicada
+2️⃣ Inicializando Flask-JWT-Extended...
+   ✅ JWTManager inicializado
+3️⃣ Inicializando middleware JWT...
+   ✅ Middleware JWT inicializado
+4️⃣ Registrando rotas JWT...
+✅ Rotas JWT registradas com sucesso
+   ✅ Rotas JWT registradas
+==================================================
+🎉 SISTEMA JWT INTEGRADO COM SUCESSO!
+==================================================
+✅ Sistema JWT integrado com sucesso!
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/home/marcia/seenti_app/SeentiCliente/dev/app.py", line 15, in <module>
+    from jwt_integration import init_jwt_system
+  File "/home/marcia/seenti_app/jwt_integration/__init__.py", line 6, in <module>
+    from .routes.jwt_routes import register_jwt_routes
+  File "/home/marcia/seenti_app/jwt_integration/routes/jwt_routes.py", line 37, in <module>
+    @rate_limit_check()
+NameError: name 'rate_limit_check' is not defined
